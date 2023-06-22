@@ -21,7 +21,7 @@ require("dotenv").config();
 mongoose.connect(dbUrl);
 
 //frontend url
-let frontUrl = "http://localhost:3000";
+let frontUrl = "https://profound-daifuku-e83fd0.netlify.app";
 
 //create post
 router.post("/createPost", validate, async (req, res) => {
